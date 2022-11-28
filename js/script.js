@@ -16,7 +16,7 @@ function buttonClicked(argButtonName) {
 	clearMessages();
 	console.log(argButtonName + ' został kliknięty');
 
-	let playerInput;
+	
 	function getMoveName(argMoveId) {
 		console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
 		if (argMoveId == 1) {
@@ -57,7 +57,7 @@ function buttonClicked(argButtonName) {
 	}
 
 	playerMove = argButtonName;
-	console.log('wybór ruchu gracza to: ' + playerInput);
+	
 	console.log('ruch gracza to: ' + playerMove);
 	const randomNumber = Math.floor(Math.random() * 3 + 1);
 	console.log('wylosowana liczba to: ' + randomNumber);
